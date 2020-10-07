@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: About
+  link: /about.html
+- name: 최근게시글
+  link: /latest.html
+- name: Staff
+  link: /staff.html
