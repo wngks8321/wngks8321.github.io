@@ -4,4 +4,4 @@ title: About
 ---
 # About page
 
-This page tells you a little bit about me.
+이 페이지는 테스트용 입니다.

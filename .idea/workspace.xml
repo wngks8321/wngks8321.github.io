@@ -54,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602033105817</updated>
-      <workItem from="1602033107382" duration="5605000" />
+      <workItem from="1602033107382" duration="10407000" />
     </task>
     <servers />
   </component>
@@ -70,9 +70,14 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" key="SettingsEditor/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602034022439" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1602038702135">
+    <state x="539" y="264" width="602" height="522" key="find.popup" timestamp="1602048103075">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602038702135" />
+    <state x="539" y="264" width="602" height="522" key="find.popup/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602048103075" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1602050781222">
+      <screen x="44" y="0" width="1636" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602050724124" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/1680.23.2560.1417/44.0.1636.1050@44.0.1636.1050" timestamp="1602050781222" />
   </component>
 </project>
