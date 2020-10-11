@@ -33,18 +33,10 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -54,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602033105817</updated>
-      <workItem from="1602033107382" duration="10407000" />
+      <workItem from="1602033107382" duration="23280000" />
     </task>
     <servers />
   </component>
@@ -70,14 +62,14 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" key="SettingsEditor/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602034022439" />
-    <state x="539" y="264" width="602" height="522" key="find.popup" timestamp="1602048103075">
+    <state x="539" y="264" width="602" height="522" key="find.popup" timestamp="1602119380378">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="539" y="264" width="602" height="522" key="find.popup/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602048103075" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1602050781222">
+    <state x="539" y="264" width="602" height="522" key="find.popup/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602119380378" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1602136505771">
       <screen x="44" y="0" width="1636" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602050724124" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/1680.23.2560.1417/44.0.1636.1050@44.0.1636.1050" timestamp="1602050781222" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602135757099" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/1680.23.2560.1417/44.0.1636.1050@44.0.1636.1050" timestamp="1602136505771" />
   </component>
 </project>

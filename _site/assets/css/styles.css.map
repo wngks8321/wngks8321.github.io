@@ -3,12 +3,14 @@
 	"file": "styles.css",
 	"sources": [
 		"styles.scss",
-		"_sass/main.scss"
+		"_sass/main.scss",
+		"_sass/content.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";",
-		".current {\n  color: green;\n}"
+		"@import \"main\";\n@import \"content\";",
+		".current {\n  color: green;\n}",
+		".post-list {\n  list-style: none;\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,KAAK,GACb"
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,KAAK,GACb;;ACFD,AAAA,UAAU,CAAC,EACT,UAAU,EAAE,IAAI,GACjB"
 }
