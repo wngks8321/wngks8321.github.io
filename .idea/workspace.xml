@@ -1,7 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b491ffc-6531-4c21-be21-8b107eb76935" name="Default Changelist" comment="" />
+    <list default="true" id="1b491ffc-6531-4c21-be21-8b107eb76935" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/04/fd90215b63f8769e1533931511a00c02ed34ab9a7b2a4d4b2094fbf6c3410a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/0b/4842ab6db36fe6ed779a2d5d1e5b2f96e483376f28fbc96415ea78e4d9e662" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/27/edc4d1ddfc0b99c775a61fb69296a4fa5664f75d8cb7a2a626fdfc157d76c5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/2e/479c672bcc7d53ac97d2d25bc50adc138277bb9487f6ce8bf26752828b49b0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/3d/defabbb0cbfa980ee669614c660e479c32fe92e41a3a77946f036b1b93033d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/4a/85b37e8f71b6d73ac9081053cd937bb7a81a09f397aa1b2cb74ae1757facfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/4e/fca0d10c5feb8e9b35eb1d994f2905bb71714e6a271f511d713b539ea5faa1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/4f/b9713c4ffc94138ed7c07809bba8910d08e4ee493628e443fc83ad5134c1df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/52/2c8efeaa95bac1664b414ab792843bd54a96ba67a4e8ce4a7414877029a084" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/63/c91786702e30e3180add0b5080535d9e84a268bfc8d690190c3bd8822054be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/64/415bb89c72690689066a644c02dc1765220435c5afc43641ea8ae770a61c01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/68/1927e34b77e4b91b1f6f305d9ede004ad0b02f7c81ff74d8f7015e1b8f9c4e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/69/0265f62f87d054835a99b2951489dd4d183aec1299146c4f75c1caefe909c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/73/6e4097d594b53fbe6ffdfbfd8060c888aeed26934048eed3fcffc51ad7a26b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/8c/6bc099534a0251b576f6b88bd2db124ae9497c64bd9242e92a6aec23e6a73a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/9f/bbe982e10d5be5810770259fa95ce2db0cdaf8ec937ae64eab931f06ab4177" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/aa/99cb0559f60539491080257ff84e4626d0a1f26877f83c54f7abb24aa55866" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/bc/9edc2a5878b784fd26d1a0c05c56be6f62f0f8f3b7470e1c843795a5f4cb01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/c7/fd5a3941f5b97088b4112edebace5e5d730eea9d82595cccc3a2e7a442bafb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/df/3f592c7e82dd4a4edafae0cbdf8276e26c724ba264982c12bde0253ec596fe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/e3/b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/e3/b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/e8/5c06a062afbbf3b77f98822db8ac4c3006e166b55bf5e0e13932cb0edd8194" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/eb/dc23faabca71a387f315ff7219f4dca8d4d97ee3db3f516137a8085085b774" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/ed/d1e2ed6d9accca1555c8cf459ec6e9e87753c168a8be3aca0c9b3273016ffd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_authors/jade.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_authors/jade1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/author.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-10-06-jade1테스트.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-10-06-welcome-to-jekyll.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-10-06-두번째 테스트 게시글입니다.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-10-06-테스트게시물입니다.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2020/10/06/jade1테스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2020/10/06/두번째-테스트-게시글입니다.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2020/10/06/테스트게시물입니다.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/authors/jade.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/authors/jade1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/jekyll/update/2020/10/06/welcome-to-jekyll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/latest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/staff.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/staff.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,8 +104,24 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_board_post" />
+      <recent name="$PROJECT_DIR$/_my_collection/subdir" />
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,6 +132,8 @@
       <option name="presentableId" value="Default" />
       <updated>1602033105817</updated>
       <workItem from="1602033107382" duration="23280000" />
+      <workItem from="1602457553789" duration="7699000" />
+      <workItem from="1602467156698" duration="6787000" />
     </task>
     <servers />
   </component>
@@ -54,22 +141,42 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="473" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602035279903">
+    <state x="473" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602478526894">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="473" y="325" key="#com.intellij.fileTypes.FileTypeChooser/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602035279903" />
+    <state x="473" y="325" key="#com.intellij.fileTypes.FileTypeChooser/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602478526894" />
+    <state width="1638" height="290" key="GridCell.Tab.0.bottom" timestamp="1602467151407">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="290" key="GridCell.Tab.0.bottom/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602467151407" />
+    <state width="1638" height="290" key="GridCell.Tab.0.center" timestamp="1602467151406">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="290" key="GridCell.Tab.0.center/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602467151406" />
+    <state width="1638" height="290" key="GridCell.Tab.0.left" timestamp="1602467151405">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="290" key="GridCell.Tab.0.left/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602467151405" />
+    <state width="1638" height="290" key="GridCell.Tab.0.right" timestamp="1602467151406">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="290" key="GridCell.Tab.0.right/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602467151406" />
     <state x="341" y="164" key="SettingsEditor" timestamp="1602034022439">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" key="SettingsEditor/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602034022439" />
-    <state x="539" y="264" width="602" height="522" key="find.popup" timestamp="1602119380378">
+    <state x="636" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602480296912">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="539" y="264" width="602" height="522" key="find.popup/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602119380378" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1602136505771">
-      <screen x="44" y="0" width="1636" height="1050" />
+    <state x="636" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602480296912" />
+    <state x="539" y="264" width="602" height="522" key="find.popup" timestamp="1602477076426">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602135757099" />
+    <state x="539" y="264" width="602" height="522" key="find.popup/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602477076426" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1602481000087">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602481000087" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/1680.23.2560.1417/44.0.1636.1050@44.0.1636.1050" timestamp="1602136505771" />
   </component>
 </project>

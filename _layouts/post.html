@@ -2,28 +2,6 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-
-<p>
-  {{ page.date | date_to_string }}
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
-  {% if author %}
-    - <a href="{{ author.url }}">{{ author.name }}</a>
-  {% endif %}
-</p>
+<p>{{ page.date | data_to_string }} - {{ page.author }}</p>
 
 {{ content }}
-------------------------------------------------------------
-<br>
-<p>collections : {{ page.relative_path }}</p>
-<p>collections : {{ page.url }}</p>
-<p>collections : {{ page.collection }}</p>
-<p>
-  {% for file in site.static_files %}
-    {{ file.modified_time }} <br>
-    {{ file.name }} <br>
-    {{ file.basename }} <br>
-    {{ file.extname }} <br>
-  {% endfor %}
-</p>
-
-<p>{{ page.dir }}</p>
