@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b491ffc-6531-4c21-be21-8b107eb76935" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/tipuesearch/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/tipuesearch/css/tipuesearch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/tipuesearch/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/tipuesearch/tipuesearch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/tipuesearch/tipuesearch_content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/tipuesearch/tipuesearch_set.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Board1/2020-10-12-board1-test.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Board/Board1/2020-10-12-board1-test.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Board1/2020-10-12-board1-test2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Board/Board1/2020-10-12-board1-test2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/staff.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/staff.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/board1.md" beforeDir="false" afterPath="$PROJECT_DIR$/category/board/board1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/board2.md" beforeDir="false" afterPath="$PROJECT_DIR$/category/board/board2.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +45,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/_posts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts/Board" />
       <recent name="$PROJECT_DIR$/category/board" />
@@ -54,6 +63,19 @@
       <recent name="$PROJECT_DIR$/_my_collection/subdir" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,6 +90,7 @@
       <workItem from="1602467156698" duration="11250000" />
       <workItem from="1602554235786" duration="559000" />
       <workItem from="1602555613460" duration="1086000" />
+      <workItem from="1603322803724" duration="7842000" />
     </task>
     <servers />
   </component>
@@ -75,10 +98,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="473" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602478526894">
+    <state x="473" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603328759784">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="473" y="325" key="#com.intellij.fileTypes.FileTypeChooser/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602478526894" />
+    <state x="473" y="325" key="#com.intellij.fileTypes.FileTypeChooser/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603328759784" />
     <state width="1638" height="290" key="GridCell.Tab.0.bottom" timestamp="1602467151407">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -103,14 +126,14 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="636" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602480296912" />
-    <state x="539" y="264" width="602" height="522" key="find.popup" timestamp="1602477076426">
+    <state x="539" y="264" width="602" height="522" key="find.popup" timestamp="1603334472069">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="539" y="264" width="602" height="522" key="find.popup/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602477076426" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1602641022905">
+    <state x="539" y="264" width="602" height="522" key="find.popup/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603334472069" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1603339588579">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1602641022905" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1603339588579" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/1680.23.2560.1417/44.0.1636.1050@44.0.1636.1050" timestamp="1602136505771" />
   </component>
 </project>

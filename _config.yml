@@ -11,3 +11,12 @@ github_username: wngks8321
 theme: minima
 plugins:
   - jekyll-feed
+
+tipue_search:
+  include:
+    pages: false
+    collections: []
+  exclude:
+    files: [search.html, index.html, tags.html]
+    categories: []
+    tags: []
