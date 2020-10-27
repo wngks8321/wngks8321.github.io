@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\";",
-		".current {\n  color: #31408e\n}"
+		".current {\n  color: #31408e\n}\n\nli.depth1 {\n  font-size:20px\n}\n\nli.depth2 {\n  font-size:15px\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,OACT,GAAC"
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,OACT,GAAC;;AAED,AAAA,EAAE,AAAA,OAAO,CAAC,EACR,SAAS,EAAC,IACZ,GAAC;;AAED,AAAA,EAAE,AAAA,OAAO,CAAC,EACR,SAAS,EAAC,IACZ,GAAC"
 }
