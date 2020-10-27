@@ -3,7 +3,7 @@
     {% assign categories = pages_list | where_exp: "item", "item.layout == 'category'" %}
 
     {% assign mainCategories = categories | where_exp: "item", "item.dir == '/'" %}
-    {% assign subCategories = categories | where_exp: "item", "item.dir != '/'" %}
+    {% assign subCategories = categories | where_exp: "item", "item.dir != '/'" | sort:"order" %}
 
     {% for mainCategory in mainCategories %}
         <li class="depth1">
