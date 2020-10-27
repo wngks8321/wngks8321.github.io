@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b491ffc-6531-4c21-be21-8b107eb76935" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/ca/b8b278c7e75237af7ad8243b9c3bcb930892a05977cdc36c8f5e36f4599f7b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/fd/aa4200cef2544ec568b25970b3a49cf9b4f3d7015485506ccda914caf9c5b9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/categories.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/category.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-10-12-first-post.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-10-12-welcome-to-jekyll.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-10-22-board1-test3333.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-10-22-category-test.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-10-22-depth1.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-10-22-depth2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Board/Board1/2020-10-12-board1-test.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Board/Board1/2020-10-12-board1-test2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Tech_doc/2020-10-12-techdoc1.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/staff.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/staff.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +79,7 @@
       <workItem from="1602555613460" duration="1086000" />
       <workItem from="1603322803724" duration="15691000" />
       <workItem from="1603409771319" duration="297000" />
-      <workItem from="1603668392633" duration="34914000" />
+      <workItem from="1603668392633" duration="34964000" />
     </task>
     <servers />
   </component>
