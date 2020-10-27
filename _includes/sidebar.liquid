@@ -1,0 +1,26 @@
+<ul class="list_category">
+    {% assign pages_list = site.pages %}
+    {% assign categories = pages_list | where_exp: "item", "item.layout == 'category'" %}
+
+    {% assign mainCategories = categories | where_exp: "item", "item.dir == '/'" %}
+    {% assign subCategories = categories | where_exp: "item", "item.dir != '/'" %}
+
+    {% for mainCategory in mainCategories %}
+        <li class="depth1">
+            <a href="{{ site.baseurl }}{{ mainCategory.url }}" class="mainCategory-link {% if page.url == mainCategory.url %}active{% endif %}">
+                {{ mainCategory.title }}
+            </a>
+            <ul>
+                {% for subCategory in subCategories %}
+                    {% if subCategory.dir contains mainCategory.permalink %}
+                        <li class="depth2">
+                            <a href="{{ site.baseurl }}{{ subCategory.url }}" class="subCategory-link {% if page.url == subCategory.url %}active{% endif %}">
+                                {{ subCategory.title }}
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+</ul>

@@ -1,9 +1,0 @@
-<ul class="post-list">
-  {% assign category = page.category | default: page.title %}
-  <ul>
-    {% for category in site.categories %}
-    site : {{ site }} <br>
-    <li><a href="{{ site.url }}/category/{{ category | first | slugify }}/index.html">{{ category | first }}</a></li>
-    {% endfor %}
-  </ul>
-</ul>

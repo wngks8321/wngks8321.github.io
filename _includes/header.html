@@ -1,25 +1,3 @@
 <header class="site-header">
-  <div class="site-category">
-    <ul>
-      {% assign pages_list = site.pages %}
-      {% for nav in site.data.navigation %}
-        <li>
-          <a href="{{ nav.link }}" {% if page.url == nav.link %}class="current"{% endif %}>
-            {{ nav.name }}
-          </a>
-        </li>
-      {% endfor %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "category" %}
-            <li>
-              <a href="{{ site.baseurl }}{{ node.url }}" class="category-link {{% if page.url == node.url %}}active{{% endif %}}">
-                {{ node.title }}
-              </a>
-            </li>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
+  {% include sidebar.liquid %}
 </header>
