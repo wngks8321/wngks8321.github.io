@@ -1,7 +1,7 @@
 .current { color: #31408e; }
 
-li.depth1 { font-size: 20px; }
+li.depth1 { font-size: 20px; background-color: powderblue; }
 
-li.depth2 { font-size: 15px; }
+li.depth2 { font-size: 15px; background-color: tan; }
 
 /*# sourceMappingURL=styles.css.map */

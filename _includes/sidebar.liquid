@@ -1,6 +1,8 @@
 <ul class="list_category">
     {% assign pages_list = site.pages %}
+    {% assign posts_list = site.posts %}
     {% assign categories = pages_list | where_exp: "item", "item.layout == 'category'" %}
+    {% assign posts = pages_list | where_exp: "item", "item.layout == 'post'" %}
 
     {% assign mainCategories = categories | where_exp: "item", "item.dir == '/'" | sort: "order" %}
     {% assign subCategories = categories | where_exp: "item", "item.dir != '/'" | sort: "order" %}
@@ -16,6 +18,30 @@
                         <li class="depth2">
                             <a href="{{ site.baseurl }}{{ subCategory.url }}" class="subCategory-link {% if page.url == subCategory.url %}active{% endif %}">
                                 {{ subCategory.title }}
+                            </a>
+                            <ul>
+                                {% for post in posts_list %}
+                                    {% assign postCategory = post.categories | first %}
+                                    {% if postCategory == subCategory.categoryName %}
+                                        <li>
+                                            <a href="{{ site.baseurl }}{{ post.url }}" class="link_subpost">
+                                                {{ post.title }}
+                                            </a>
+                                        </li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul class="list_post">
+                {% for post in posts_list %}
+                    {% assign postCategory = post.categories | first %}
+                    {% if postCategory == mainCategory.categoryName %}
+                        <li>
+                            <a href="{{ site.baseurl }}{{ post.url }}" class="link_mainpost">
+                                {{ post.title }}
                             </a>
                         </li>
                     {% endif %}
