@@ -1,7 +1,11 @@
 .current { color: #31408e; }
 
-li.depth1 { font-size: 20px; background-color: powderblue; }
+.list_maincategory > li { font-size: 20px; background-color: powderblue; }
 
-li.depth2 { font-size: 15px; background-color: tan; }
+.list_subcategory > li { font-size: 15px; background-color: tan; }
+
+.list_mainpost > li { background-color: #009926; }
+
+.list_subpost > li { background-color: goldenrod; }
 
 /*# sourceMappingURL=styles.css.map */

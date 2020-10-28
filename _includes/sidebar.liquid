@@ -1,4 +1,4 @@
-<ul class="list_category">
+<ul class="list_maincategory">
     {% assign pages_list = site.pages %}
     {% assign posts_list = site.posts %}
     {% assign categories = pages_list | where_exp: "item", "item.layout == 'category'" %}
@@ -12,14 +12,14 @@
             <a href="{{ site.baseurl }}{{ mainCategory.url }}" class="mainCategory-link {% if page.url == mainCategory.url %}active{% endif %}">
                 {{ mainCategory.title }}
             </a>
-            <ul>
+            <ul class="list_subcategory">
                 {% for subCategory in subCategories %}
                     {% if subCategory.dir contains mainCategory.permalink %}
                         <li class="depth2">
                             <a href="{{ site.baseurl }}{{ subCategory.url }}" class="subCategory-link {% if page.url == subCategory.url %}active{% endif %}">
                                 {{ subCategory.title }}
                             </a>
-                            <ul>
+                            <ul class="list_subpost">
                                 {% for post in posts_list %}
                                     {% assign postCategory = post.categories | first %}
                                     {% if postCategory == subCategory.categoryName %}
@@ -35,7 +35,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul class="list_post">
+            <ul class="list_mainpost">
                 {% for post in posts_list %}
                     {% assign postCategory = post.categories | first %}
                     {% if postCategory == mainCategory.categoryName %}

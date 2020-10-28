@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\";",
-		".current {\n  color: #31408e\n}\n\nli.depth1 {\n  font-size:20px;\n  background-color:powderblue;\n}\n\nli.depth2 {\n  font-size:15px;\n  background-color:tan;\n}"
+		".current {\n  color: #31408e\n}\n\n.list_maincategory > li {\n  font-size:20px;\n  background-color:powderblue;\n}\n\n.list_subcategory > li {\n  font-size:15px;\n  background-color:tan;\n}\n\n.list_mainpost > li {\n  background-color: #009926;\n}\n\n.list_subpost > li {\n  background-color: goldenrod;\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,OACT,GAAC;;AAED,AAAA,EAAE,AAAA,OAAO,CAAC,EACR,SAAS,EAAC,IAAI,EACd,gBAAgB,EAAC,UAAU,GAC5B;;AAED,AAAA,EAAE,AAAA,OAAO,CAAC,EACR,SAAS,EAAC,IAAI,EACd,gBAAgB,EAAC,GAAG,GACrB"
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,OACT,GAAC;;AAED,AAAA,kBAAkB,GAAG,EAAE,CAAC,EACtB,SAAS,EAAC,IAAI,EACd,gBAAgB,EAAC,UAAU,GAC5B;;AAED,AAAA,iBAAiB,GAAG,EAAE,CAAC,EACrB,SAAS,EAAC,IAAI,EACd,gBAAgB,EAAC,GAAG,GACrB;;AAED,AAAA,cAAc,GAAG,EAAE,CAAC,EAClB,gBAAgB,EAAE,OAAO,GAC1B;;AAED,AAAA,aAAa,GAAG,EAAE,CAAC,EACjB,gBAAgB,EAAE,SAAS,GAC5B"
 }

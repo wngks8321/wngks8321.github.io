@@ -2,12 +2,20 @@
   color: #31408e
 }
 
-li.depth1 {
+.list_maincategory > li {
   font-size:20px;
   background-color:powderblue;
 }
 
-li.depth2 {
+.list_subcategory > li {
   font-size:15px;
   background-color:tan;
+}
+
+.list_mainpost > li {
+  background-color: #009926;
+}
+
+.list_subpost > li {
+  background-color: goldenrod;
 }
