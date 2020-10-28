@@ -7,15 +7,27 @@
   background-color:powderblue;
 }
 
-.list_subcategory > li {
-  font-size:15px;
-  background-color:tan;
+.list_subcategory {
+  margin-left: 20px;
+
+  & > li {
+    font-size:15px;
+    background-color:tan;
+  }
 }
 
-.list_mainpost > li {
-  background-color: #009926;
+.list_mainpost {
+  margin-left: 20px;
+
+  & > li {
+    background-color: #009926;
+  }
 }
 
-.list_subpost > li {
-  background-color: goldenrod;
+.list_subpost {
+  margin-left: 20px;
+
+  & > li {
+    background-color: goldenrod;
+  }
 }
