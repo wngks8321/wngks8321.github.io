@@ -3,20 +3,5 @@ layout: default
 ---
 
 <ul class="posts-list">
-  {% assign category = page.category | default: page.categoryName %}
-  {% assign postSize = site.categories[category] | size %}
-  {% for post in site.categories[category] %}
-  <li>
-    <h3>
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-      <small>{{ post.date | date_to_string }}</small>
-    </h3>
-  </li>
-  {% endfor %}
-  <!-- 해당 카테고리에 속한 게시글이 없는 경우 -->
-  {% if postSize == 0 %}
-    게시글이 없습니다.
-  {% endif %}
+  {{ content }}
 </ul>

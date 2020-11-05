@@ -7,6 +7,16 @@ description: 테스트용 페이지입니다.
 ---
 <div class="intro">
   <h1 class="tit_intro">
-    연습용 페이지 입니다.
+    연습용 페이지
   </h1>
+  {% assign pages_list = site.pages %}
+  {% for page in pages_list %}
+    {% if page.layout == 'category' %}
+      <div class="wrap_category">
+        <img src="./assets/images/{{ page.image }}">
+        <span>{{ page.title }}</span>
+        <br>
+      </div>
+    {% endif %}
+  {% endfor %}
 </div>

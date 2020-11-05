@@ -1,52 +1,58 @@
-<ul class="list_maincategory">
-    {% assign pages_list = site.pages %}
-    {% assign posts_list = site.posts %}
-    {% assign categories = pages_list | where_exp: "item", "item.layout == 'category'" %}
-    {% assign posts = pages_list | where_exp: "item", "item.layout == 'post'" %}
+<nav class="doc-gnb">
+    <ul class="list_depth1">
+        {% assign pages_list = site.pages %}
+        {% assign posts_list = site.posts %}
+        {% assign categories = pages_list | where_exp: "item", "item.layout == 'category'" %}
+        {% assign posts = pages_list | where_exp: "item", "item.layout == 'post'" %}
 
-    {% assign mainCategories = categories | where_exp: "item", "item.dir == '/'" | sort: "order" %}
-    {% assign subCategories = categories | where_exp: "item", "item.dir != '/'" | sort: "order" %}
+        {% assign mainCategories = categories | where_exp: "item", "item.dir == '/'" | sort: "order" %}
+        {% assign subCategories = categories | where_exp: "item", "item.dir != '/'" | sort: "order" %}
 
-    {% for mainCategory in mainCategories %}
-        <li class="depth1">
-            <a href="{{ site.baseurl }}{{ mainCategory.url }}" class="mainCategory-link {% if page.url == mainCategory.url %}active{% endif %}">
-                {{ mainCategory.title }}
-            </a>
-            <ul class="list_subcategory">
-                {% for subCategory in subCategories %}
-                    {% if subCategory.dir contains mainCategory.permalink %}
-                        <li class="depth2">
-                            <a href="{{ site.baseurl }}{{ subCategory.url }}" class="subCategory-link {% if page.url == subCategory.url %}active{% endif %}">
-                                {{ subCategory.title }}
-                            </a>
-                            <ul class="list_subpost">
-                                {% for post in posts_list %}
-                                    {% assign postCategory = post.categories | first %}
-                                    {% if postCategory == subCategory.categoryName %}
-                                        <li>
-                                            <a href="{{ site.baseurl }}{{ post.url }}" class="link_subpost">
-                                                {{ post.title }}
-                                            </a>
-                                        </li>
-                                    {% endif %}
-                                {% endfor %}
-                            </ul>
-                        </li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul class="list_mainpost">
-                {% for post in posts_list %}
-                    {% assign postCategory = post.categories | first %}
-                    {% if postCategory == mainCategory.categoryName %}
-                        <li>
-                            <a href="{{ site.baseurl }}{{ post.url }}" class="link_mainpost">
-                                {{ post.title }}
-                            </a>
-                        </li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        </li>
-    {% endfor %}
-</ul>
+        {% for mainCategory in mainCategories %}
+            <li>
+                <a href="{{ site.baseurl }}{{ mainCategory.url }}" class="link_depth1 {% if page.url == mainCategory.url %}current{% endif %}">
+                    {{ mainCategory.title }}
+                </a>
+                <ul class="list_depth2">
+                    {% for subCategory in subCategories %}
+                        {% comment %}
+                        TODO : contains 말고 다른방법을 찾아야함.
+                        만약 카테고리 경로가 category13/subcategory1 이라면 category13 이 없을 경우 category1 이 contains 되어 category1/subcategory1 이 될 가능성이 있음.
+                        {% endcomment %}
+                        {% if subCategory.dir contains mainCategory.permalink %}
+                            <li>
+                                <a href="{{ site.baseurl }}{{ subCategory.url }}" class="link_depth2 {% if page.url == subCategory.url %}current{% endif %}">
+                                    {{ subCategory.title }}
+                                </a>
+                                <ul class="list_depth3">
+                                    {% for post in posts_list %}
+                                        {% assign postCategory = post.categories | first %}
+                                        {% if postCategory == subCategory.categoryName %}
+                                            <li>
+                                                <a href="{{ site.baseurl }}{{ post.url }}" class="link_depth3">
+                                                    {{ post.title }}
+                                                </a>
+                                            </li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+                <ul class="list_mainpost">
+                    {% for post in posts_list %}
+                        {% assign postCategory = post.categories | first %}
+                        {% if postCategory == mainCategory.categoryName %}
+                            <li>
+                                <a href="{{ site.baseurl }}{{ post.url }}" class="link_mainpost">
+                                    {{ post.title }}
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>
