@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b491ffc-6531-4c21-be21-8b107eb76935" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/ga.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/ga.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,7 @@
       <workItem from="1603774175891" duration="8020000" />
       <workItem from="1603843006796" duration="17249000" />
       <workItem from="1604274941575" duration="3944000" />
-      <workItem from="1604466924197" duration="4835000" />
+      <workItem from="1604466924197" duration="5118000" />
     </task>
     <servers />
   </component>
@@ -113,10 +110,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="539" y="264" width="602" height="522" key="find.popup/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1604281496354" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1604553698525">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1604554468322">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1604553698525" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1604554468322" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/1680.23.2560.1417/44.0.1636.1050@44.0.1636.1050" timestamp="1603860487890" />
   </component>
 </project>
